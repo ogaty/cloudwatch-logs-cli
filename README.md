@@ -2,7 +2,7 @@
 
 コンソール画面から見るの分かりづらいのでaws cliから見る
 
-## イベント一覧を取得
+## ログストリーム一覧を取得
 ```
 python3 list-events.py aws-profile logGroupName
 ```
