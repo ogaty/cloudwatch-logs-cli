@@ -1,4 +1,4 @@
-# cloudWatchLogs console確認用
+# cloudWatchLogs from aws-cli
 
 コンソール画面から見るの分かりづらいのでaws cliから見る
 
