@@ -4,7 +4,7 @@
 
 ## イベント一覧を取得
 ```
-python3 list-events.py profile groupName
+python3 list-events.py aws-profile logGroupName
 ```
 
 ### sample
@@ -14,9 +14,12 @@ tea@tina-1:~/cloudwatch$ python3 list-events.py default /aws/lambda/param
 2019-08-06 20:27:34 2019/08/06/[$LATEST]508258af956c4ba89763aa21191bcb04
 ```
 
+### この画面ね
+![list](https://github.com/ogaty/my-documents/blob/master/cloudwatch/list.jpg)
+
 ## イベントの中身を取得
 ```
-python3 get-event.py profile groupName streamName
+python3 get-event.py aws-profile logGroupName logStreamName
 ```
 
 ### sample
@@ -33,3 +36,8 @@ END RequestId: 0c81c25a-32a8-445b-ba4e-f531f2f90fdb
 
 REPORT RequestId: 0c81c25a-32a8-445b-ba4e-f531f2f90fdb	Duration: 1259.28 ms	Billed Duration: 1300 ms 	Memory Size: 128 MB	Max Memory Used: 74 MB	
 ```
+
+### この画面ね
+![get](https://github.com/ogaty/my-documents/blob/master/cloudwatch/get.jpg)
+
+
