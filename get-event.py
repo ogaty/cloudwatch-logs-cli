@@ -23,4 +23,4 @@ response = client.get_log_events(
 )
 
 for key in response["events"]:
-    print(key["message"] + "\n")
+    print(key["message"])
